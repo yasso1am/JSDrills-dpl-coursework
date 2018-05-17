@@ -1,7 +1,5 @@
-
-
 function fToC(x){
-  x = ((x-32) * (5/9))
+  x = ((x-32) * (5/9)).toFixed(1)
   return x
 }
 

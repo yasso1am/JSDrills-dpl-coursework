@@ -1,7 +1,7 @@
 var vowels
 
 function vowelCount(str) {
-  vowels = str.match(/[aeiouAEIOU]/)
+  vowels = str.match(/[aeiou/gi]/)
   return vowels = vowels.length
 }
 

@@ -1,6 +1,5 @@
 function sum(a,b){
-  total = a + b
-  return total
+  return = a + b
 }
 
 console.log(sum(22,10))
